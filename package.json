@@ -26,6 +26,9 @@
     "build-prod": "npx webpack-cli --mode=production --config webpack.prod.js"
   },
   "dependencies": {
-    "lit": "^2.0.0-rc.1"
+    "@kemet/kemet-flipcard": "^1.0.0",
+    "@polymer/paper-button": "^3.0.1",
+    "lit": "^2.0.0-rc.1",
+    "social-icon": "^1.2.1"
   }
 }
