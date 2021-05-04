@@ -5,14 +5,32 @@
 <script defer src="index.js"></script></head>
 
 <style>
-  currency-converter {
-    margin: 8px;
+  body {
+    background-color: #F3F4F6;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    column-gap: 1rem;
   }
 </style>
 
 <body>
   <h1>Web Component Template</h1>
-  <div style="display: grid; grid-template-columns: repeat(2,minmax(0,1fr));">
-    <my-component text="Hello World"></my-component>
+  <div class="grid">
+    <apex-flipcard name="Fred Waltz" dept="Sales"
+      image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80">
+    </apex-flipcard>
+    <apex-flipcard name="Andre Brühl" dept="Marketing"
+      image="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixqx=sCVMfBmCJh&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80">
+    </apex-flipcard>
+    <apex-flipcard name="Anna Kruger" dept="Designer"
+      image="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=sCVMfBmCJh&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80">
+    </apex-flipcard>
+    <apex-flipcard name="Sandra Beetz" dept="Project Lead"
+      image="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80">
+    </apex-flipcard>
   </div>
 </body>

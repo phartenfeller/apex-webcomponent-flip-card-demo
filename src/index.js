@@ -3,8 +3,8 @@ import '@polymer/paper-button/paper-button';
 import { css, customElement, html, LitElement, property } from 'lit-element';
 import 'social-icon/dile-social-icon';
 
-@customElement('my-component')
-class MyComponent extends LitElement {
+@customElement('apex-flipcard')
+class FlipCard extends LitElement {
   @property()
   name = 'Name Placeholder';
 
@@ -159,4 +159,4 @@ class MyComponent extends LitElement {
   }
 }
 
-export default MyComponent;
+export default FlipCard;
